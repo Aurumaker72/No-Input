@@ -18,7 +18,7 @@
     <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NoInput.h">
+    <ClInclude Include="NoSound.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -26,7 +26,7 @@
     <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NoInput.cpp">
+    <ClCompile Include="NoSound.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

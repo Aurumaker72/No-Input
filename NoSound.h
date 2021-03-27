@@ -7,9 +7,10 @@ extern "C" {
 #endif
 
 
-#define PLUGIN_NAME "No Input"
+#define PLUGIN_NAME "No Sound"
 
 #define PLUGIN_TYPE_CONTROLLER		4
+#define PLUGIN_TYPE_SOUND 3
 
 #define PLUGIN_NONE					1
 #define PLUGIN_MEMPAK				2
@@ -73,19 +74,8 @@ extern "C" {
 						
 	} CONTROL_INFO;
 
-	EXPORT void CALL CloseDLL(void);
-	EXPORT void CALL ControllerCommand(int Control, BYTE* Command);
 	EXPORT void CALL DllAbout(HWND hParent);
-	EXPORT void CALL DllConfig(HWND hParent);
-	EXPORT void CALL DllTest(HWND hParent);
 	EXPORT void CALL GetDllInfo(PLUGIN_INFO* PluginInfo);
-	EXPORT void CALL GetKeys(int Control, BUTTONS* Keys);
-	EXPORT void CALL InitiateControllers(CONTROL_INFO ControlInfo);
-	EXPORT void CALL ReadController(int Control, BYTE* Command);
-	EXPORT void CALL RomClosed(void);
-	EXPORT void CALL RomOpen(void);
-	EXPORT void CALL WM_KeyDown(WPARAM wParam, LPARAM lParam);
-	EXPORT void CALL WM_KeyUp(WPARAM wParam, LPARAM lParam);
 
 
 #if defined(__cplusplus)
