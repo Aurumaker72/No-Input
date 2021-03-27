@@ -1,2 +1,2 @@
-# No-Input
-Input Plugin for mupen64-rr-lua which aims to do nothing
+# No-Sound
+Sound Plugin for mupen64-rr-lua which aims to do nothing
